@@ -168,7 +168,7 @@ body {
   background-color: #05363a;
   color: #e5e5e5;
   font-size: 2rem;
-  height: 100vh; /* 80% of the viewport height */
+  height: 80vh; /* 80% of the viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
