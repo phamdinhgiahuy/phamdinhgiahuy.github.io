@@ -165,7 +165,12 @@ body {
 
 
 .container {
-  background-color: #05363a;
+  background-color: #3c3d2b;
+  background-image: url('table.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
   color: #e5e5e5;
   font-size: 2rem;
   height: 80vh; /* 80% of the viewport height */
@@ -253,8 +258,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #1a98a1; /* Subtle background */
-  border-left: 5px solid #3d073f; /* Colored left border */
+  background-color: #43b2b6; /* Subtle background */
+  border-left: 5px solid #2b0424; /* Colored left border */
   padding: 5px;
   margin: 0 auto; /* Center horizontally */
   font-family: 'Georgia', serif; /* Elegant serif font */
@@ -274,9 +279,9 @@ body {
 
 .quote-author {
   text-align: right;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: 0px;
-  color: #31210b;
+  color: #4e391c;
   font-weight: bold;
 }
 
