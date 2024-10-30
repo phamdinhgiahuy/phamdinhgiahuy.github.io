@@ -1,25 +1,13 @@
-/*
- * Globals
- */
-
-
-/* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
   text-shadow: none;
-  /* Prevent inheritance from `body` */
 }
 
-
-/*
- * Base structure
- */
-
 body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
 .cover-container {
@@ -27,22 +15,19 @@ body {
 }
 
 
-/*
- * Header
- */
 .title-nav {
   font: 1.3rem Inconsolata, monospace;
-  text-shadow: 0 0 5px #C8C8C8;
+  text-shadow: 0 0 5px #c8c8c8;
 }
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
-  border-bottom: .25rem solid transparent;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
 .nav-masthead .nav-link+.nav-link {
@@ -57,36 +42,36 @@ body {
 .feature-icon {
   width: 4rem;
   height: 4rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
 
 .icon-link>.bi {
-  margin-top: .125rem;
-  margin-left: .125rem;
+  margin-top: 0.125rem;
+  margin-left: 0.125rem;
   fill: currentcolor;
-  transition: transform .25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 .icon-link:hover>.bi {
-  transform: translate(.25rem);
+  transform: translate(0.25rem);
 }
 
 .icon-square {
   width: 3rem;
   height: 3rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
 
 .text-shadow-1 {
-  text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 .text-shadow-2 {
-  text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
 }
 
 .text-shadow-3 {
-  text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
 }
 
 .card-cover {
@@ -118,8 +103,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Background transition for the navbar */
-/* Dropdown menu hover effect */
+
 .navbar .dropdown-menu {
   transition: background-color 0.5s ease;
   background-color: #004d4d;
@@ -127,40 +111,36 @@ body {
   border-radius: 0.5rem;
 }
 
-/* Teal hover effect for the navbar */
+
 .navbar:hover {
   background-color: #008080;
-  /* Teal color */
+
 }
 
-/* Transition for the navbar links */
+
 .navbar-nav .nav-link {
   transition: color 0.5s ease;
 }
 
-/* Teal hover effect for the navbar links */
 .navbar-nav .nav-link:hover {
   color: #00ced1;
-  /* Light teal color */
+
 }
 
 
-
-/* Optional: Change the color of icons within the nav on hover */
 .navbar-brand svg,
 .dropdown-item svg {
   transition: transform 0.2s ease, fill 0.5s ease;
 }
 
-/* Hover effect for SVG inside navbar brand and dropdown */
+
 .navbar-brand:hover svg,
 .dropdown-item:hover svg {
   transform: scale(1.3);
-  /* Enlarge the SVG on hover */
 
 }
 
-/* Center the SVG in the dropdown */
+
 .dropdown-item {
   color: #e5e5e5;
   display: flex;
@@ -168,22 +148,16 @@ body {
   align-items: center;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s ease;
-
 }
 
-/* Change background color of dropdown item on hover */
 .dropdown-item:hover {
   background-color: #00ced1;
-  /* Teal background on hover */
+
 }
-
-
-
-
 
 .container {
   background-color: #3c3d2b;
-  background-image: url('table.jpg');
+  background-image: url("table.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,7 +173,6 @@ body {
   max-width: 100%;
   padding: 20px;
 }
-
 
 .container .animation {
   height: 50px;
@@ -218,13 +191,12 @@ body {
   animation: text-animation 12s infinite;
 }
 
-
 .container .first div {
   background-color: #1a7ca0;
 }
 
 .container .second div {
-  background-color: #18453B;
+  background-color: #18453b;
 }
 
 .container .third div {
@@ -272,27 +244,27 @@ body {
 .icon-row {
   display: flex;
   flex-wrap: nowrap;
-  /* Prevent wrapping */
+
   justify-content: center;
-  /* Center icons horizontally */
+
   gap: 10px;
-  /* Add space between icons */
+
 }
 
 .icon-row a {
   text-decoration: none;
 }
 
-/* Ensure icons don't stack on smaller screens */
+
 @media (max-width: 576px) {
   .icon-row {
     gap: 5px;
-    /* Reduce gap on small screens */
+
   }
 
   .icon-row a {
     margin: 0;
-    /* Remove additional margins on small screens */
+
   }
 }
 
@@ -342,7 +314,7 @@ body {
   background: linear-gradient(135deg, #01171b 40%, #044e43) center;
   color: white;
   padding: 2.5rem 1.5rem;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: "Gill Sans", sans-serif;
   text-align: center;
   font-size: 1.6em;
   font-weight: 600;
@@ -367,7 +339,7 @@ body {
   }
 }
 
-/* Card styles */
+
 .proj-card-cover {
   background-size: cover;
   background-position: center;
@@ -399,8 +371,6 @@ body {
 }
 
 
-
-/* Responsive adjustments */
 @media (max-width: 992px) {
   .row-cols-1.row-cols-lg-3 {
     flex-direction: column;
