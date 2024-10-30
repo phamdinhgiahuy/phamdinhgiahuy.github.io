@@ -412,3 +412,32 @@ body {
     border-radius: 10px;
   }
 }
+
+.slider-block {
+  height: 350px;
+  display: inline-block;
+}
+
+.card {
+  position: relative;
+}
+
+.card-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.text-shadow-1 {
+  position: relative;
+  z-index: 2;
+}
