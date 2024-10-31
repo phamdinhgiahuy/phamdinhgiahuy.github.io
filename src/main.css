@@ -474,3 +474,9 @@ body {
   font-variation-settings:
     "wdth" 100;
 }
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+  font-style: normal;
+}
