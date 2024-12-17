@@ -20,6 +20,16 @@
     rel="stylesheet">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-77PTLSE8XR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-77PTLSE8XR');
+</script>
+
 <body class="d-flex h-100 text-bg-dark" data-new-gr-c-s-check-loaded="8.912.0" data-gr-ext-installed>
   <svg style="display: none">
     <symbol id="folder-icon" viewBox="0 0 16 16">
@@ -177,7 +187,7 @@
                     </a>
                     <ul class="dropdown-menu bg-opacity-75">
                       <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="https://github.com/phamdinhgiahuy">
                           <svg width="24" height="24" fill="currentColor" class="me-2 align-middle">
                             <use xlink:href="#github"></use>
                           </svg>
@@ -227,8 +237,8 @@
         <div class="row align-items-center g-5 py-5">
 
           <div class="col-lg-6">
-            <img src="./src/img/huy.jpg" alt="Huy is awesome" 
-                  class=" img-fluid shadow-lg rounded-5 z-depth-1" width="160" loading="lazy" />
+            <img src="./src/img/huy.jpg" alt="Huy is awesome" class=" img-fluid shadow-lg rounded-5 z-depth-1"
+              width="160" loading="lazy" />
           </div>
 
           <div class="col-lg-6">
@@ -274,7 +284,7 @@
                   <use xlink:href="#linkedin"></use>
                 </svg>
               </a>
-              <a href="#" aria-label="github" class="ms-3 hover-zoom">
+              <a href="https://github.com/phamdinhgiahuy" aria-label="github" class="ms-3 hover-zoom">
                 <i class="icon-github-line"></i>
                 <svg width="24" height="24" fill="currentColor">
                   <use xlink:href="#github"></use>
@@ -313,7 +323,7 @@
                   Cui Yue</h6>
                 <h6 class="mb-2" style="font-size: 0.95rem; font-style: italic;">Focus:
                   Statistical Survey Design, Data Mining, Data Analysis,
-                  Probabilistic Modeling, Natural Language Processing</h6>
+                  Probabilistic Modeling, Natural Language Processing, Retrieval-Augmented Generation</h6>
                 <ul class="pl-3">
                   <li>Leveraging LLMs and NLP applications to mine,
                     preprocess, and analyze unstructured text data from
@@ -327,6 +337,8 @@
                     population estimation, and regression modeling to
                     establish foundational methodologies for the USDA
                     National Farmers Market Survey Project.</li>
+                  <li>Developed a RAG pipeline for Question Answering on custom web-scraped SQL database and external
+                    data sources, streamlining data ingestion, processing, and analysis.</li>
                 </ul>
               </div>
             </div>
@@ -434,7 +446,8 @@
                 <p class="fs-6">Masters of Science in Data Science</p>
                 <p class="fs-7">GPA: 4.0/4.0</p>
                 <p class="fs-7 mb-3">Relevant Coursework: Data Mining, Big
-                  Data Analysis, Computational Optimization, Statistical
+                  Data Analysis Computational Foundations in Artificial Intelligence Computational Optimization,
+                  Statistical
                   Learning, Natural Language Processing</p>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
@@ -493,81 +506,113 @@
         <h2 class="pb-2 border-bottom">Project Showcase</h2>
       </div>
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
         <div class="col">
           <a href="https://www.researchgate.net/publication/384937100_Effects_of_Social_Media_on_Religious_Belief_Life_Belief_and_Life_Motivation_Using_Causal_Machine_Learning_A_Case_Study_of_Thich_Minh_Tue_Phenomenon"
             target="_blank" class="text-decoration-none">
-            <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('./src/img/');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Publication</h3>
-                <h4 class="mb-3">Effects of Social Media on Religious
-                  Belief, Life Belief, and Life Motivation Using Causal
-                  Machine Learning</h4>
-                <p class="mb-4">This research investigates the causal
-                  effects of social media on religious beliefs and life
-                  motivation through advanced causal machine learning
-                  methods. Utilizing observational data from a designed
-                  online survey, the study reveals how platforms like
-                  YouTube and Facebook positively impact Buddhism belief and
-                  motivation to practice ethical principles.</p>
-                <ul class="d-flex flex-wrap list-unstyled mt-3">
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-success">Causal Inference</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-success">Machine Learning</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-success">Social Media
-                      Analysis</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-success">Survey Research</span>
-                  </li>
-                </ul>
+
+            <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg position-relative">
+              <div class="card-overlay"></div>
+              <div style="background-image: url('./src/img/cauinfer.jpg');" class="card-img h-100">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Publication: Effects of Social Media on Religious Belief, Life
+                    Belief, and Life Motivation Using Causal Machine Learning</h3>
+                  <p class="mb-4">This research investigates the causal effects of social media on religious beliefs and
+                    life motivation through advanced causal machine learning methods. Utilizing observational data from
+                    a designed online survey, the study reveals how platforms like YouTube and Facebook positively
+                    impact Buddhism belief and motivation to practice ethical principles</p>
+                  <ul class="d-flex flex-wrap list-unstyled mt-auto">
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Causal Inference</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Machine Learning</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Social Media Analysis</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Survey Research</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/phamdinhgiahuy/RFPDocSum" target="_blank" class="text-decoration-none">
+
+            <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg position-relative">
+              <div class="card-overlay"></div>
+              <div style="background-image: url('./src/img/dataaggre.png');" class="card-img h-100">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Automatic Request For Proposal (RFP) Documents Consolidation
+                    and Analysis</h3>
+                  <p class="mb-4">Partnered with Kellanova to develop an
+                    NLP-based tool that automates supplier response
+                    consolidation. The tool integrates pricing data and
+                    questionnaire responses, using NLP, data aggregation and excel files manipulation techniques to
+                    extract key metrics, enhancing procurement insights and
+                    data-driven decision-making.</p>
+                  <ul class="d-flex flex-wrap list-unstyled mt-auto">
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">NLP</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Openpyxl</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Data Consolidation</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Procurement
+                        Analysis</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Automated
+                        Reporting</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </a>
         </div>
 
         <div class="col">
-          <a href="https://phamdinhgiahuy-nutrition-webapp.streamlit.app/" target="_blank"
-            style="text-decoration: none; color: inherit;">
+          <a href="./src/doc/cse842project.pdf" target="_blank" class="text-decoration-none">
             <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg position-relative">
               <div class="card-overlay"></div>
-              <div style="background-image: url('./src/img/nutri.png');" class="card-img h-100">
+              <div style="background-image: url('./src/img/codesum.png');" class="card-img h-100">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">The Power Plate:
-                    Decoding Food for a Healthier You</h3>
-                  <p class="mb-4">An interactive app designed to help users
-                    make healthier dietary choices by understanding
-                    nutritional data. Using
-                    "The Nutritional Content of Food" dataset, this project
-                    offers quick views and breakdowns of essential nutrients
-                    in everyday foods, with engaging insights on commonly
-                    hidden ingredients that could impact health goals.
-                    Whether you're a health enthusiast or just curious, this
-                    app provides a friendly, informative way to explore and
-                    rethink food choices.</p>
+                  <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Automatic Code Documentation Generator with NLP and LLM
+                    Techniques</h3>
+                  <p class="mb-4">This project focuses on building an automatic code documentation generator to create
+                    header comments for code functions, resembling Python Docstrings. Leveraging Natural Language
+                    Processing (NLP) and Large Language Models (LLMs), the project aims to enhance code summarization
+                    across multiple programming languages.</p>
                   <ul class="d-flex flex-wrap list-unstyled mt-auto">
                     <li class="me-2 mb-2">
-                      <span class="badge bg-primary">Nutritional
-                        Analysis</span>
+                      <span class="badge bg-primary">NLP</span>
                     </li>
                     <li class="me-2 mb-2">
-                      <span class="badge bg-primary">Data
-                        Visualization</span>
+                      <span class="badge bg-primary">Machine Translation</span>
                     </li>
                     <li class="me-2 mb-2">
-                      <span class="badge bg-primary">Story Telling</span>
+                      <span class="badge bg-primary">Multi-Agent Systems</span>
                     </li>
                     <li class="me-2 mb-2">
-                      <span class="badge bg-primary">Health Insights</span>
+                      <span class="badge bg-primary">LLM</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Scalable Pipeline Development</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+
           </a>
         </div>
 
@@ -643,92 +688,57 @@
         </div>
 
         <div class="col">
-          <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg position-relative">
-            <div class="card-overlay"></div>
-            <div style="background-image: url('./src/img/csat.png');" class="card-img h-100">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Predictive Customer
-                  Satisfaction Modeling for eCommerce</h3>
-                <p class="mb-4">A machine learning tool to proactively
-                  identify dissatisfied customers, improving CSAT. Conducted
-                  EDA, handled missing data and class imbalance, and applied
-                  SMOTE. Built predictive models (Naive Bayes, Logistic
-                  Regression, Random Forest, XGBoost, CNN) to forecast CSAT,
-                  enabling real-time customer satisfaction management.</p>
-                <ul class="d-flex flex-wrap list-unstyled mt-auto">
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Machine Learning</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">eCommerce</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Descriptive
-                      Analysis</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Procurement
-                      Analysis</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Feature
-                      Engineering</span>
-                  </li>
-                </ul>
+          <a href="https://phamdinhgiahuy-nutrition-webapp.streamlit.app/" target="_blank"
+            style="text-decoration: none; color: inherit;">
+            <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg position-relative">
+              <div class="card-overlay"></div>
+              <div style="background-image: url('./src/img/nutri.png');" class="card-img h-100">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">The Power Plate:
+                    Decoding Food for a Healthier You</h3>
+                  <p class="mb-4">An interactive app designed to help users
+                    make healthier dietary choices by understanding
+                    nutritional data. Using
+                    "The Nutritional Content of Food" dataset, this project
+                    offers quick views and breakdowns of essential nutrients
+                    in everyday foods, with engaging insights on commonly
+                    hidden ingredients that could impact health goals.
+                    Whether you're a health enthusiast or just curious, this
+                    app provides a friendly, informative way to explore and
+                    rethink food choices.</p>
+                  <ul class="d-flex flex-wrap list-unstyled mt-auto">
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Nutritional
+                        Analysis</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Data
+                        Visualization</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Story Telling</span>
+                    </li>
+                    <li class="me-2 mb-2">
+                      <span class="badge bg-primary">Health Insights</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
-        <div class="col">
-          <div class="card proj-card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg position-relative">
-            <div class="card-overlay"></div>
-            <div style="background-image: url('./src/img/dataaggre.png');" class="card-img h-100">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Automatic RFP
-                  Document Consolidation and Analysis Using NLP and
-                  LLMs</h3>
-                <p class="mb-4">Partnered with Kellanova to develop an
-                  NLP-based tool that automates supplier response
-                  consolidation. The tool integrates pricing data and
-                  questionnaire responses, using NLP and open-source LLMs to
-                  extract key metrics, enhancing procurement insights and
-                  data-driven decision-making.</p>
-                <ul class="d-flex flex-wrap list-unstyled mt-auto">
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">NLP</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">LLMs</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Data Consolidation</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Procurement
-                      Analysis</span>
-                  </li>
-                  <li class="me-2 mb-2">
-                    <span class="badge bg-primary">Automated
-                      Reporting</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
       <footer class="mt-auto text-white-50 text-center">
         <p>
           &copy; Copyright 2024 Huy Pham.
         </p>
       </footer>
-  </div>
-
-  </main>
+    </main>
 
 
-  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
